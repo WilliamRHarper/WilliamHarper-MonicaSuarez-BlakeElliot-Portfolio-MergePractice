@@ -1,0 +1,20 @@
+.changes:active {
+    animation: text 3s 1;
+}
+
+@keyframes text {
+    0%{
+        font-size: 30px;
+    }
+    30%{
+        font-size: 35px;
+    } 
+    85%{
+        font-size: 40px;  
+    }
+}
+
+.changes:hover {
+    transition: transform 2s;
+    transform: scale(1.5);
+}
