@@ -1,20 +1,8 @@
-.changes:active {
-    animation: text 3s 1;
+li a:hover{
+    transform: scale(-2);
+}
+li a:active{
+    transition: all 0.3s ease-in;
+    font-size: 244px;
 }
 
-@keyframes text {
-    0%{
-        font-size: 30px;
-    }
-    30%{
-        font-size: 75px;
-    } 
-    85%{
-        font-size: 150px;  
-    }
-}
-
-.changes:hover {
-    transition: transform 2s;
-    transform: scale(1.5);
-}
