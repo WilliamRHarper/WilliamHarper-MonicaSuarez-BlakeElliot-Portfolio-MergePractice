@@ -1,0 +1,11 @@
+li a.linkStyle:hover { 
+    transition: all 60s ease-out 0s;
+    transform: scale(2);
+    animation-name: lia;
+    animation-duration: 60s;
+}
+
+@keyframes lia {
+    from {font-size: 24px}
+    to {font-size: 48px}
+}
